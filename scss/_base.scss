@@ -8,17 +8,27 @@ body{
     color:$color;
     box-sizing:border-box;
     @include body-font-regular;
-    @include fontSize(20px);
     padding: 0 8px;
     margin:0 auto;
-    max-width: 1140px;
-    width: 50%
+    max-width:1420x;
+    width: 100%;
 }
-h1, h2 {
+
+h1{
+    color:black;
     @include headline-font;
+    @include fontSize(50px);
+    background-color: #a0c1e8;
+    border-bottom-color:black;
+    padding:0 30px;
+}
+
+h2 {
+    @include headline-font;
+    @include fontSize(30px);
 }
 
 img{
-max-width:50%;
+max-width:40%;
     height:auto;
 }

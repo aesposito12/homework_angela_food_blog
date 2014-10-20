@@ -5,5 +5,41 @@ Module Rules
 */
 html{
     animation: colorchange-background 5s linear 1s infinite alternate;
-    background-color:$background-color
+    color:$background-color-alternate;
+    background-color:$background-color;
+    
 }
+.toggle-button{
+    animation: colorchange-font 5s linear 1s infinite alternate;
+    color:$background-color;
+    display: inline-block;
+    @include headline-font;
+    padding:0 0 0 4px;
+    text-decoration:inherit;
+    
+}
+nav[role="navigation"] ul{
+ list-style-type:none;
+background: #afafaf;
+padding:10px;
+}
+
+    nav[role="navigation"] ul a {
+        border:1px solid $color;
+        color:$color;
+        display:inline-block;
+        @include fontSize (16px);
+        @include headline-font;
+        margin-left: 8px;
+        padding:0 4px;
+        text-decoration:none;
+        transition: border 400ms linear;
+        transition: color 400ms linear;
+    }
+
+    nav[role="navigation"] ul a:hover{
+        border: 1px solid lighten($color, 30%);
+        color: lighten($color,30%);
+        transition: border 400ms linear;
+        transition: color 400ms linear;
+    }

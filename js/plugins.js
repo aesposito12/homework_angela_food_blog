@@ -23,5 +23,5 @@
 
 // Place any jQuery/helper plugins below this line.
 
-@prepros-append vendor/webfont.js */
+@prepros-append vendor/webfont.js 
  @prepros-append vendor/bigtext.js 

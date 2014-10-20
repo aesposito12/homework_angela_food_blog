@@ -15,7 +15,7 @@ Globals
     font-size: calculateRem($size);
 }
 
-$color: #6f6f7b;
+$color: #555962;
 $background-color: #f0ffbe;
 $background-color-alternate: #8bc9ea;
 
@@ -45,10 +45,7 @@ font-style: normal;
 font-weight: 400;
 }
 
-@mixin reversed-text{
-    background-color:$color;
-    color: $background-color;
-}
+
 
 @keyframes colorchange-background {
     0% {background-color: $background-color;}
