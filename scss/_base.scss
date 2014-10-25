@@ -8,8 +8,9 @@ body{
     color:$color;
     box-sizing:border-box;
     @include body-font-regular;
-    padding: 0 8px;
+    padding: 0 50px 100px 50px;
     margin:0 auto;
+    min-height: 300px;
     max-width:1420x;
     width: 100%;
 }
@@ -20,7 +21,12 @@ h1{
     @include fontSize(50px);
     background-color: #a0c1e8;
     border-bottom-color:black;
-    padding:0 30px;
+    padding: 50px 50px 0px 0px;
+    margin:0 0 0 45auto;
+    min-height: 50px;
+    max-width:1420x;
+    width: 100%;
+ 
 }
 
 h2 {
@@ -30,5 +36,7 @@ h2 {
 
 img{
 max-width:40%;
-    height:auto;
+height:auto;
+margin-left: auto;
+align-content: center;
 }

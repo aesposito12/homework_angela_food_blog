@@ -15,8 +15,8 @@ Globals
     font-size: calculateRem($size);
 }
 
-$color: #555962;
-$background-color: #f0ffbe;
+$color: #000;
+$background-color: #fff;
 $background-color-alternate: #8bc9ea;
 
 @mixin body-font-regular {
